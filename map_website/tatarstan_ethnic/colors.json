@@ -1,0 +1,12 @@
+{
+    "Kryashens": ["#F5F7FA", "#DCE6F5", "#B6CCEA", "#8AAEDD", "#5C8ECE", "#3A6DBA", "#1E4E9C", "#0B2F6B"],
+    "Russians": ["#FBF3F2", "#F5D6D3", "#EAA9A3", "#DE7C73", "#CF4E42", "#B32E22", "#8C1F16", "#641309"],
+    "Tatars (without Kryashens)": ["#F3F9F4", "#D4EDD8", "#A9DBB1", "#7DC98A", "#4FAF5F", "#358F44", "#226E31", "#144A20"],
+    "Chuvashes": ["#FDFAF0", "#FAF0C9", "#F5E093", "#EFCE5C", "#E5B627", "#C79A16", "#9C7A10", "#6E560A"],
+    "Maris": ["#F8F5FA", "#E8DCF0", "#D2B9E3", "#BB96D6", "#9F6FC4", "#8250AE", "#633A87", "#43275D"],
+    "Udmurts": ["#FDF6EF", "#FBE3CA", "#F7C899", "#F2A968", "#EA8635", "#CC6A1C", "#A15113", "#71390D"],
+    "Mordvins":["#F9F6F3", "#EDE0D5", "#DBC2AA", "#C7A17D", "#AC7E54", "#8C6139", "#6B4826", "#472F18"],
+    "Not specified": ["#F7F7F7", "#E0E0E0", "#C4C4C4", "#A8A8A8", "#8C8C8C", "#707070", "#545454", "#383838"],
+    "Others": ["#FCF4F8", "#F5DAE8", "#EAB3D0", "#DE8CB8", "#CE5F9C", "#B23F80", "#8C2B63", "#5F1B42"]
+
+}

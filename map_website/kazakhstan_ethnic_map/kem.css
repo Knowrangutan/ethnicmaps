@@ -1,0 +1,192 @@
+
+/*General-----------------------------------------------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    height: 10%;
+    border: solid black;
+}
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    height: 5%;
+    border: solid;
+}
+
+
+
+
+
+
+
+
+/*SVG     -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+path{
+    fill: grey;
+    stroke: white;
+    
+}
+
+
+
+/*Aral sea */
+#KZ-AS {
+    fill: #A8D5E5;
+    stroke-width: 2px;
+    stroke: rgb(0, 110, 255);
+}/*#6FA8BF*/
+
+#popup{ 
+    pointer-events: none; 
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    border: solid black 2px;
+    visibility: hidden;
+    text-align: center;
+    padding: 4px 8px 4px 8px;
+    background-color: white ;
+    z-index: -1;
+
+}
+
+#regionName{
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+
+#main-map-div{
+    position: relative;
+
+    
+}
+
+#map-section{
+    border: solid black;
+    height: 600px;
+    width: 930px;
+    position: relative;
+}
+
+#city-layer{
+    height: 600px;
+    width: 930px;
+    padding: 60px 40px ;
+    z-index: 1;
+    position: absolute;   
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+
+
+.city{
+    height: 18px;
+    border-radius: 3px;
+    width: 18px;
+    border: solid white 3px;
+    position: absolute;
+    pointer-events: auto;
+
+}
+
+#Astana-city{
+    top: 192px;
+    left: 519px;
+    
+}
+
+#Almaty-city{
+    top: 412px;
+    left: 630px;
+}
+
+#Shymkent-city{
+    top: 445px;
+    left: 475px;
+}
+
+#map{
+    height: 600px;
+    width: 930px;
+    padding: 60px 40px ;
+    border: solid red;
+    z-index: 0;
+    position: absolute;   
+    top: 0;
+    left: 0;
+}
+
+#legend{
+    height: 10%;
+    width: 100%;
+    border: solid green ;
+    position: absolute;
+    top: 90%;
+}
+.gradient{
+    border: solid;
+    height: 27px;
+    width: 27px;
+}
+#legend-color{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    border: solid yellow;
+}
+
+
+
+
+#legend-numbers div{
+    height: 27px;
+    width: 27px;
+    margin-right: 5px;
+
+}
+
+#legend-numbers {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    border: solid yellow;
+    font-size: 12px;
+    font-weight: bold;
+    display: none;
+
+}
+
+
+#legend-color div{
+    margin-right: 5px;
+}
+
+#methodology-div{
+    width: 500px;
+}
+
+#methodology-div li{
+    list-style-type: circle
+
+}
